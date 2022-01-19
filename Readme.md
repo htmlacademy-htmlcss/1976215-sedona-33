@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Юрий Борисенко](https://up.htmlacademy.ru/htmlcss/33/user/1976215).
-* Наставник: [Карина Карапетян] 
+* Наставник: [Карина Карапетян] (https://htmlacademy.ru/profile/karinaweb)
 
 
 ---
