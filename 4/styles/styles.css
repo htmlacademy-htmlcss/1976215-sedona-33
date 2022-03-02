@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/pt-sans-regular.woff2") format("woff2");
+  src: url("fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/pt-sans-bold.woff2") format("woff2");
+  src: url("fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -18,14 +18,14 @@
   font-family: "PT Sans";
   font-style: italic;
   font-weight: 400;
-  src: url("fonts/pt-sans-italic.woff2") format("woff2");
+  src: url("fonts/ptsans-400.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "PT Sans";
   font-style: italic;
   font-weight: 700;
-  src: url("fonts/pt-sans-bold-italic.woff2") format("woff2");
+  src: url("fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -34,7 +34,7 @@
   font-family: "PT Sans Narrow";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/pt-sans-narrow-bold.woff2") format("woff2");
+  src: url("fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -49,9 +49,10 @@ body {
   min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
+  font-weight:400;
   line-height: 21px;
   color: #242424;
-  background-color: #f2f2f2;
+  background-color: #c0c0c0;
 }
 /* Pages */
 
@@ -62,7 +63,7 @@ body {
 
 .navigation {
   display: flex;
-  width: 1060px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -79,12 +80,10 @@ body {
 
 
 .navigation-link {
-  font-family: "PT Sans", sans-serif;
   line-height: 26px;
   font-weight: 700;
   text-align: center;
   color: #000000;
-  background-color:#000000
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -123,14 +122,10 @@ body {
 /* Item */
 .advantages-item {
   width: 1200px;
-  Height: 1535px;
-  Top: 832px;
-  Left: 40px;
-}
+  }
 
 /* Title */
 .advantages-title {
-  font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
@@ -155,7 +150,7 @@ body {
   color: #000000;
 }
 .button {
-  font-family: inherit;
+  font: inherit;
   font-size: 16px;
   line-height: 60px;
   font-weight: 700;
@@ -200,7 +195,6 @@ body {
   font-weight: 400;
   color: #000000;
   background-color: #ffffff;
-  background-image: url("images/bg-noisy.png");
   background-repeat: repeat;
 }
 
