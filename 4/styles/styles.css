@@ -14,15 +14,6 @@
   font-display: swap;
 }
 
-/* PT Sans Narrow */
-@font-face {
-  font-family: "PT Sans Narrow";
-  font-style: normal;
-  font-weight: 700;
-  src: url("fonts/ptsans-400.woff2") format("woff2");
-  font-display: swap;
-}
-
 html {
   height: 100%;
 }
@@ -31,6 +22,10 @@ body {
   margin: 0;
   height: 100%;
   background-color: #F2F2F2;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: bold;
 }
 
 .page-container {
@@ -81,9 +76,16 @@ body {
 .page-container {
   width: 1200px;
   margin: 0 auto;
-  background-image: url("../images/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
+
+.about-page-container{
+width: 1200px;
+margin: 0 auto;
+background-image: url("../images/index-background.jpg");
+background-size: 100% auto;
+background-repeat: no-repeat;
 }
 
 .logo {
@@ -193,4 +195,12 @@ body {
 .footer-contacts-phone {
   width: 720px;
   margin-right: 50px;
+}
+
+.inner-header{
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("../images/catalog/catalog-background-1.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
