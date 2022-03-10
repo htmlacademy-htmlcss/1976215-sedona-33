@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+  <div class="page-container">
   <header class="page-header">
     <nav class="navigation">
       <a href="">
@@ -22,7 +23,7 @@
           <a class="navigation-link" href="catalog.html">Гостиницы</a>
         </li>
       </ul>
-      <ul class="navigation-list navigation-user">
+      <ul class="navigation-user">
         <li class="navigation-item">
           <a class="navigation-link" href="">
             <span class="visually-hidden">
@@ -43,9 +44,12 @@
       </ul>
     </nav>
   </header>
-  <main class="main-index">
+  </div class="page-container">
+  <main class="main-container main-index">
+    <div class="about-page-container">
     <h1 class="visually-hidden">"СЕДОНА"</h1>
     <img class="logo" src="images/logo.svg" width="367".height="152" alt="Логотип СЕДОНА.">
+    </div>
     <section class="advantages">
       <h2 class="visually-hidden">Преимущества</h2>
       <p>Седона - небольшой городок в аризоне,заслуживающий большего</p>
@@ -94,7 +98,6 @@
           <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
         </li>
       </ul>
-    </div>
     </section>
     <section class="appointment">
       <h2 class="appointment-title">Заинтересовались?</h2>
@@ -113,6 +116,7 @@
       </section>
   </main>
         <footer class="page-footer">
+          <div class="page-footer-container">
           <ul class="footer-social-list">
             <li class="footer-social-item">
               <a class="button" href="https://twitter.com/htmlacademy_ru">
@@ -133,6 +137,6 @@
           <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
           <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/"> <img src="images/html.svg" width="139" height="70"></a></p>
         </footer>
+  </div>
 </body>
-
 </html>
