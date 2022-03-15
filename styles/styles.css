@@ -28,6 +28,17 @@ body {
   font-weight: bold;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .page-container {
   min-height: 100%;
   display: flex;
@@ -44,28 +55,39 @@ body {
 }
 
 .navigation {
-  display: flex;
   width:1060px;
   margin: 0 auto;
 }
 
-.navigation-user {
-  max-width: 250px;
-  margin-left: auto;
-  }
-
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 470px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
 
 .navigation-link {
-  line-height: 26px;
+  display: block;
+  padding: 20px 17px;
+  line-height: 66px;
   font-weight: 700;
   text-align: center;
   color: #000000;
   text-decoration: none;
   text-transform: uppercase;
-}
+  }
+
+  .navigation-list navigation-user {
+  min-width: 16px;
+  min-height: 22px;
+  }
 
 .main-container {
   flex-grow: 1;
+  padding-top: 51px;
+  padding-bottom: 60px;
 }
 
 .main-index {
@@ -91,6 +113,7 @@ background-repeat: no-repeat;
 .logo {
   display: block;
   margin: 0 auto;
+  margin-bottom: 82px;
 }
 
 /* List */
@@ -100,6 +123,7 @@ background-repeat: no-repeat;
   margin: 0;
   padding: 0;
   text-align: center;
+  list-style-type: none;
 }
 
 /* Item */
