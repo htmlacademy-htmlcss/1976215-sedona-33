@@ -207,9 +207,45 @@ margin-left: auto;
   list-style: none;
 }
 
+.services-list-housing {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.services-list-souvenirs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.services-list-meal {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .advantages-item-bridge{
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages-item-square {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages-item-road {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages-item-tourists {
   margin: 0;
   padding: 0;
   list-style: none;
