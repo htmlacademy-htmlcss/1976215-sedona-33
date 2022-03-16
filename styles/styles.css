@@ -111,11 +111,13 @@ margin-left: auto;
 }
 
 .about-page-container{
-width: 1200px;
-margin: 0 auto;
-background-image: url("../images/index-background.jpg");
-background-size: 100% auto;
-background-repeat: no-repeat;
+  padding-top: 90px;
+  padding-bottom: 81px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .logo {
@@ -149,6 +151,7 @@ background-repeat: no-repeat;
 
 /* Index columns */
 .index-columns {
+  width: 400px;
   color: #242424;
   background-color: #ffffff;
 }
@@ -195,6 +198,31 @@ background-repeat: no-repeat;
   line-height: 21px;
   font-weight: 400;
 }
+
+.advantages-item-city {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages-item-bridge{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.newsletter{
+  width: 1200px;
+ margin: 0 auto;
+ background-image: url("../images/fon-2.jpg");
+ background-size: 100% auto;
+ background-repeat: no-repeat;
+}
+
 .contacts {
   font-weight: 400;
 }
