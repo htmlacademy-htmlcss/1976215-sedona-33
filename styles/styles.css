@@ -57,6 +57,8 @@ body {
 .navigation {
   width:1060px;
   margin: 0 auto;
+  display: flex;
+  align-items: start;
 }
 
 .navigation-list {
@@ -68,6 +70,16 @@ body {
   list-style-type: none;
 }
 
+.navigation-user {
+display: flex;
+flex-wrap: wrap;
+width: 255px;
+margin: 0;
+padding: 0;
+list-style-type: none;
+margin-left: auto;
+}
+
 .navigation-link {
   display: block;
   padding: 20px 17px;
@@ -77,17 +89,13 @@ body {
   color: #000000;
   text-decoration: none;
   text-transform: uppercase;
+  list-style-type: none;
   }
 
-  .navigation-list navigation-user {
-  min-width: 16px;
-  min-height: 22px;
-  }
-
-.main-container {
+ .main-container {
   flex-grow: 1;
   padding-top: 51px;
-  padding-bottom: 60px;
+  padding-bottom: 81px;
 }
 
 .main-index {
@@ -116,6 +124,7 @@ background-repeat: no-repeat;
   margin-bottom: 82px;
 }
 
+.advantages
 /* List */
 .advantages-list {
   display: flex;
