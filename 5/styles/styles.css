@@ -199,37 +199,51 @@ margin-left: auto;
   font-weight: 400;
 }
 
+.advantages-list {
+  display:flex;
+  flex-wrap: wrap;
+}
+
 .advantages-item-city {
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
 }
 
+.services-list {
+  display: flex;
+}
+
 .services-list-housing {
+  width: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .services-list-souvenirs {
+  width: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .services-list-meal {
+  width: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .advantages-item-bridge{
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
   list-style: none;
 }
 
@@ -251,12 +265,19 @@ margin-left: auto;
   list-style: none;
 }
 
-.newsletter{
-  width: 1200px;
- margin: 0 auto;
- background-image: url("../images/fon-2.jpg");
- background-size: 100% auto;
- background-repeat: no-repeat;
+.appointment-title {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.newsletter {
+  padding-top: 94px;
+  padding-bottom: 93px;
+  margin: 0 auto;
+  background-image: url("../images/fon-2.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .contacts {
