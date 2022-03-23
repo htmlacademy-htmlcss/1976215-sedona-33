@@ -28,6 +28,17 @@ body {
   font-weight: bold;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .page-container {
   min-height: 100%;
   display: flex;
@@ -44,28 +55,47 @@ body {
 }
 
 .navigation {
-  display: flex;
   width:1060px;
   margin: 0 auto;
+  display: flex;
+  align-items: start;
+}
+
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400x;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .navigation-user {
-  max-width: 250px;
-  margin-left: auto;
-  }
-
+display: flex;
+flex-wrap: wrap;
+width: 255px;
+margin: 0;
+padding: 0;
+list-style-type: none;
+margin-left: auto;
+}
 
 .navigation-link {
-  line-height: 26px;
+  display: block;
+  padding: 20px 17px;
+  line-height: 66px;
   font-weight: 700;
   text-align: center;
   color: #000000;
   text-decoration: none;
   text-transform: uppercase;
-}
+  list-style-type: none;
+  }
 
-.main-container {
+ .main-container {
   flex-grow: 1;
+  padding-top: 51px;
+  padding-bottom: 81px;
 }
 
 .main-index {
@@ -81,18 +111,22 @@ body {
 }
 
 .about-page-container{
-width: 1200px;
-margin: 0 auto;
-background-image: url("../images/index-background.jpg");
-background-size: 100% auto;
-background-repeat: no-repeat;
+  padding-top: 90px;
+  padding-bottom: 81px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .logo {
   display: block;
   margin: 0 auto;
+  margin-bottom: 82px;
 }
 
+.advantages
 /* List */
 .advantages-list {
   display: flex;
@@ -100,6 +134,7 @@ background-repeat: no-repeat;
   margin: 0;
   padding: 0;
   text-align: center;
+  list-style-type: none;
 }
 
 /* Item */
@@ -116,6 +151,7 @@ background-repeat: no-repeat;
 
 /* Index columns */
 .index-columns {
+  width: 400px;
   color: #242424;
   background-color: #ffffff;
 }
@@ -156,23 +192,117 @@ background-repeat: no-repeat;
   font-weight: 700;
 }
 
+.description-text {
+  width: 1200px;
+  padding: 50px 0;
+  text-align: center;
+}
+
 /* Price */
 .services-list {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
 }
+
+.advantages-list {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.advantages-item-city {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.services-list {
+  display: flex;
+}
+
+.services-list-housing {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.services-list-souvenirs {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.services-list-meal {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages-item-bridge{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.advantages-item-square {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages-item-road {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages-item-tourists {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.appointment {
+  margin: 0 auto;
+  padding: 0;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+
+.newsletter {
+  padding-top: 94px;
+  padding-bottom: 93px;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("../images/fon-2.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
 .contacts {
   font-weight: 400;
 }
+
 /* Phone */
 .contacts-phone {
-  font-size: 40px;
-  line-height: 40px;
+  margin: 0 auto;
+  padding: 0 auto;
   text-decoration-line: underline;
   text-transform: uppercase;
   color: #000000;
+  list-style-type: none;
 }
+
 .page-footer {
   font-size: 40px;
   font-weight: 400;
@@ -185,6 +315,7 @@ background-repeat: no-repeat;
   display: flex;
   width: 940px;
   margin: 0 auto;
+  list-style-type: none;
 }
 
 .footer-social {
@@ -195,6 +326,7 @@ background-repeat: no-repeat;
 .footer-contacts-phone {
   width: 720px;
   margin-right: 50px;
+  list-style-type: none;
 }
 
 .inner-header{
