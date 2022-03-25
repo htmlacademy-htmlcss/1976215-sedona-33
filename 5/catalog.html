@@ -24,22 +24,22 @@
         </li>
       </ul>
       <ul class="navigation-user">
-        <li class="navigation-user-item">
-          <a class="navigation-search" href="">
+        <li class="navigation-item">
+          <a class="navigation-link" href="">
             <span class="visually-hidden">
               Поиск
             </span>
           </a>
         </li>
-      <li class="navigation-user-item">
-        <a class="navigation-favorite" href="">
+      <li class="navigation-item">
+        <a class="navigation-link" href="">
           <span class="visually-hidden">
             Избранное
           </span>
         </a>
       </li>
-      <li class="navigation-user-item">
-        <a class="navigation-modal-link" href="">Хочу сюда!</a>
+      <li class="navigation-item">
+        <a class="navigation-link" href="">Хочу сюда!</a>
       </li>
       </ul>
     </nav>
@@ -105,7 +105,30 @@
             </li>
           </ul>
         </fieldset>
-        <button class="button" type="submit">Показать</button>
+        <div class="cost-filter">
+          <div class="cost-filter-title">Стоимость, ₽:</div>
+          <div class="cost-control">
+            <label class="cost-from">
+              "От "
+              <input type="text" name="from" value="0" id="from-value">
+            </label>
+            <!--
+
+                   -->
+            <label class="cost-to">
+              "До "
+              <input type="text" name="to" value="9000" id="to-value">
+            </label>
+          </div>
+          <div class="cost-range">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="range-toggle range-toggle-min"></div>
+            <div class="range-toggle range-toggle-max"></div>
+          </div>
+        </div>
+        <button class="button" type="submit">Применить</button>
         <button class="button" type="reset">Сбросить</button>
       </form>
     </section>
@@ -136,6 +159,7 @@
           <p>От 4000 ₽</p>
           <a class="product-card-button button" href="#">ПОДРОБНЕЕ</a>
           <a class="product-card-button button" href="#">В ИЗБРАННОЕ</a>
+          <div class="rating-stars"></div>
           <p>Рейтинг:8,5</p>
         </li>
           <li class="product-card">
@@ -147,6 +171,7 @@
             <p>От 3000 ₽</p>
             <a class="product-card-button button" href="#">ПОДРОБНЕЕ</a>
             <a class="product-card-button button" href="#">В ИЗБРАННОЕ</a>
+            <div class="rating-stars"></div>
             <p>Рейтинг:8,9</p>
           </li>
             <li class="product-card">
@@ -158,6 +183,7 @@
               <p>От 2000 ₽</p>
               <a class="product-card-button button" href="#">ПОДРОБНЕЕ</a>
               <a class="product-card-button button" href="#">В ИЗБРАННОЕ</a>
+              <div class="rating-stars"></div>
               <p>Рейтинг:9,2</p>
             </li>
               <li class="product-card">
@@ -169,6 +195,7 @@
                 <p>От 3000 ₽</p>
                 <a class="product-card-button button" href="#">ПОДРОБНЕЕ</a>
                 <a class="product-card-button button" href="#">В ИЗБРАННОЕ</a>
+                <div class="rating-stars"></div>
                 <p>Рейтинг:9,2</p>
               </li>
             </ul>
@@ -211,27 +238,28 @@
           </section>
     </div>
         </main>
-          <footer class="page-footer">
-            <ul class="footer-social-list">
-              <li class="footer-social-item">
-                <a class="button" href="https://twitter.com/htmlacademy_ru">
-                  <span class="visually-hidden">Твиттер</span>
-                </a>
-              </li>
-              <li class="footer-social-item">
-                <a class="button" href="https://www.facebook.com/htmlacademy">
-                  <span class="visually-hidden">Фейсбук</span>
-                </a>
-              </li>
-              <li class="footer-social-item">
-                <a class="button" href="https://www.youtube.com/c/HTMLAcademyRUS">
-                  <span class="visually-hidden">Ютуб</span>
-                </a>
-              </li>
-            </ul>
-            <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-            <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/"> <img src="images/html.svg" width="139" height="70"> </a></p>
-          </footer>
+        <footer class="page-footer">
+          <div class="page-footer-container">
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a class="button" href="https://twitter.com/htmlacademy_ru">
+                <span class="visually-hidden">Твиттер</span>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="button" href="https://www.facebook.com/htmlacademy">
+                <span class="visually-hidden">Фейсбук</span>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="button" href="https://www.youtube.com/c/HTMLAcademyRUS">
+                <span class="visually-hidden">Ютуб</span>
+              </a>
+            </li>
+          </ul>
+          <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+          <a class="htmlacademy-link" href="https://htmlacademy.ru/"> <img src="images/html.svg" width="139" height="70"></a>
+        </footer>
   </body>
 
   </html>
